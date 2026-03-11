@@ -1,0 +1,658 @@
+{
+    "lead_endpoint": {
+        "id": 129217,
+        "lead_list_id": 1578,
+        "status": "processing",
+        "statusApollo": null,
+        "statusApolloEmail": "failed",
+        "statusApolloPhone": "completed",
+        "data": {
+            "first_name": "Mateo",
+            "last_name": "Gutierrez",
+            "job_title": "Programador Senior php",
+            "linkedin_id": "ACoAACSbiy8BKV99JU-1htPLU2XD0cDrHM84X3A",
+            "linkedin_url": "https://www.linkedin.com/in/mateo-gutierrez-57b828151",
+            "bio_description": "Programación PHP (Laravel, Symfony)\nProgramación Java (Spring, Hibernate)\nProgramacion c# (Xamarin Forms)\nMetodologías Ágiles.",
+            "email": "mateo98vnp@gmail.com",
+            "skills": "analis, Resolución creativa de problemas, Acreditación activa secreta del Departamento de Defensa, Orientación entre compañeros, Medios sociales",
+            "education": "Desarrollo de Aplicaciones Web at salesianas",
+            "followers": 134,
+            "connections": 134,
+            "is_relationship": true,
+            "city": "Madrid",
+            "country": " Spain",
+            "company_name": "Tecnocom",
+            "status": "processing",
+            "campaign_mail_status": "email_open",
+            "campaign_linkedin_status": "send_message",
+            "linkedin_message_sent": 1,
+            "linkedin_replied": 1,
+            "email_sent": 1,
+            "email_opened": 1,
+            "meeting_scheduled": 1
+        },
+        "linkedin_lead_raw": {
+            "object": "UserProfile",
+            "skills": "analis, Resolución creativa de problemas, Acreditación activa secreta del Departamento de Defensa, Orientación entre compañeros, Medios sociales",
+            "is_self": false,
+            "summary": "Programación PHP (Laravel, Symfony)\nProgramación Java (Spring, Hibernate)\nProgramacion c# (Xamarin Forms)\nMetodologías Ágiles.",
+            "headline": "Programador sénior php en Tecnocom",
+            "location": "Madrid, Community of Madrid, Spain",
+            "projects": [],
+            "provider": "LINKEDIN",
+            "websites": [],
+            "education": "Desarrollo de Aplicaciones Web at salesianas",
+            "languages": "",
+            "last_name": "gutierrez",
+            "first_name": "mateo",
+            "is_creator": false,
+            "is_premium": false,
+            "member_urn": "614173487",
+            "provider_id": "ACoAACSbiy8BKV99JU-1htPLU2XD0cDrHM84X3A",
+            "contact_info": {
+                "emails": [
+                    "mateo98vnp@gmail.com"
+                ]
+            },
+            "is_influencer": false,
+            "certifications": [],
+            "follower_count": 134,
+            "primary_locale": {
+                "country": "ES",
+                "language": "es"
+            },
+            "is_open_profile": false,
+            "is_relationship": true,
+            "recommendations": {
+                "given": [],
+                "received": []
+            },
+            "work_experience": [
+                {
+                    "end": null,
+                    "start": "12/1/2018",
+                    "skills": [],
+                    "company": "Tecnocom",
+                    "location": "Madrid y alrededores, España",
+                    "position": "Programador Senior php",
+                    "company_id": "14025"
+                },
+                {
+                    "end": "12/1/2018",
+                    "start": "3/1/2016",
+                    "skills": [],
+                    "company": "Tecnocom",
+                    "location": "Madrid y alrededores, España",
+                    "position": "Programador PHP",
+                    "company_id": "14025",
+                    "description": "Desarrollo de aplicaciones en PHP.\n"
+                }
+            ],
+            "network_distance": "FIRST_DEGREE",
+            "connections_count": 134,
+            "public_identifier": "mateo-gutierrez-57b828151",
+            "volunteering_experience": [],
+            "shared_connections_count": 9,
+            "job_title": "Programador Senior php",
+            "company_name": "Tecnocom",
+            "linkedin_url": "https://www.linkedin.com/in/mateo-gutierrez-57b828151",
+            "phone_number": "",
+            "email": "mateo98vnp@gmail.com",
+            "city": "Madrid",
+            "state": " Community of Madrid",
+            "country": " Spain"
+        },
+        "linkedin_company_raw": null
+    },
+    "sender_endpoint": {
+        "user": {
+            "id": 22,
+            "processing_group": 14,
+            "organization_id": 5,
+            "created_by": null,
+            "name": "Fernando",
+            "role": "owner",
+            "picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0",
+            "has_sales_navigator": 0,
+            "email": "fernandosilv4c@gmail.com",
+            "outlook_email": null,
+            "language": "es-co",
+            "ui_language": "es",
+            "phone": "670782222",
+            "job_title": null,
+            "meeting_link": null,
+            "email_verified_at": null,
+            "content_token": null,
+            "content_limit_per_month": 3000,
+            "content_current_credits": 3000,
+            "content_access": false,
+            "content_activated": false,
+            "content_user_created": true,
+            "ai_base_prompt_id": null,
+            "created_at": "2025-03-13T15:05:51.000000Z",
+            "updated_at": "2025-12-26T09:31:23.000000Z",
+            "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0"
+        },
+        "linkedin_profile": {
+            "object": "UserProfile",
+            "skills": [
+                {
+                    "name": "Arquitectura de software",
+                    "endorsed": false,
+                    "insights": [
+                        "CTO at Synapsale"
+                    ],
+                    "endorsement_id": null,
+                    "endorsement_count": 0
+                },
+                {
+                    "name": " Inteligencia Artificial aplicada a ventas",
+                    "endorsed": false,
+                    "insights": [
+                        "CTO at Synapsale"
+                    ],
+                    "endorsement_id": null,
+                    "endorsement_count": 0
+                }
+            ],
+            "status": 200,
+            "is_self": true,
+            "headline": "Full Stack developer | laravel | vue | .net | linux",
+            "location": "Greater Madrid Metropolitan Area",
+            "projects": [
+                {
+                    "end": "10/1/2023",
+                    "name": "Creación de calendario para shopify",
+                    "start": "1/1/2023",
+                    "skills": [],
+                    "description": "Creación de una aplicación en shopify para seleccionar la fecha de entrega de los pedidos, la aplicación cuenta con un administrador para que el usuario configure las entregas como el quiera."
+                },
+                {
+                    "end": "8/1/2023",
+                    "name": "Desarrollo y personalización de tiendas en Shopify",
+                    "start": "12/1/2022",
+                    "skills": [],
+                    "description": "En mis proyectos personales, me he especializado en el desarrollo y personalización de tiendas en la plataforma Shopify. Mi enfoque principal ha sido la modificación del código Liquid para adaptar y mejorar los temas de Shopify según mis propias necesidades. Además, he llevado a cabo la integración de APIs propias, lo que ha permitido ampliar las funcionalidades de las tiendas y ofrecer soluciones personalizadas.\n\nEn cada proyecto, he trabajado para comprender mis objetivos y requisitos, y así brindar soluciones que cumplan con mis expectativas. Mi experiencia en la modificación de código Liquid me ha permitido implementar cambios visuales, agregar características personalizadas y optimizar el rendimiento de las tiendas de Shopify.\n\nAlgunos aspectos destacados de mis proyectos en Shopify incluyen:\n\nPersonalización de la apariencia visual de los temas de Shopify mediante modificaciones en el código Liquid y CSS.\nIntegración de APIs propias para sincronizar inventarios, procesar pagos personalizados o conectar con sistemas externos.\nImplementación de funcionalidades específicas, como sistemas de búsqueda avanzada, procesos de compra personalizados y configuración de precios dinámicos.\nOptimización del rendimiento de las tiendas mediante técnicas de carga rápida, caching y optimización de imágenes.\n\nMe enorgullece haber desarrollado y personalizado varios proyectos en Shopify, brindando soluciones únicas y adaptadas a mis propias necesidades. Si estás buscando un profesional especializado en Shopify y en la modificación de código Liquid, estoy disponible para colaborar en emocionantes desafíos y proyectos. No dudes en contactarme para discutir cómo puedo ayudarte a alcanzar tus objetivos en el mundo del comercio electrónico."
+                }
+            ],
+            "provider": "LINKEDIN",
+            "websites": [],
+            "education": [
+                {
+                    "id": "567524990",
+                    "end": "6/1/2016",
+                    "start": "9/1/2014",
+                    "degree": "Desarrollo De Aplicaciones Multiplataforma",
+                    "school": "Santo Domingo Savio"
+                },
+                {
+                    "id": "567526204",
+                    "end": "7/1/2014",
+                    "start": "9/1/2012",
+                    "degree": "Sistemas Microinformáticos y Redes",
+                    "school": "Santo Domingo Savio"
+                }
+            ],
+            "languages": [],
+            "last_name": "Silva Vera",
+            "first_name": "∞ FERNANDO",
+            "is_creator": false,
+            "is_premium": false,
+            "member_urn": "699465985",
+            "http_status": 200,
+            "provider_id": "ACoAACmxAQEB0aiEgTcFD_oJp4ojhEFRFUZdKts",
+            "contact_info": {
+                "emails": [
+                    "fernandosilv4c@gmail.com"
+                ]
+            },
+            "linkedin_url": "https://www.linkedin.com/in/∞-fernando-silva-vera-6812bb176",
+            "is_influencer": false,
+            "certifications": [],
+            "follower_count": 462,
+            "primary_locale": {
+                "country": "ES",
+                "language": "es"
+            },
+            "creator_website": {
+                "url": "https://github.com/FernandoSilvaVera",
+                "description": "https://github.com/FernandoSilvaVera"
+            },
+            "is_open_profile": false,
+            "is_relationship": false,
+            "work_experience": [
+                {
+                    "id": "2677645811",
+                    "end": null,
+                    "start": "7/1/2025",
+                    "skills": [],
+                    "status": "Freelance",
+                    "company": "Synapsale",
+                    "location": "Remote",
+                    "position": "CTO",
+                    "description": "CTO de Synapsale, una plataforma B2B que acelera las ventas mediante IA y automatización inteligente. Lidero el desarrollo de producto y la arquitectura tecnológica, gestionando un stack que incluye Laravel, React. Nos enfocamos en ayudar a equipos comerciales a generar clientes calificados y aumentar conversiones mediante:\n\n🚀 Prospección avanzada con LinkedIn Sales Navigator + Apollo, usando más de 50 filtros para encontrar el cliente ideal.  \n🤖 Campañas multicanal automatizadas con IA, mensajes personalizados y seguimiento inteligente.  \n📩 Inbox unificado que centraliza LinkedIn, emails y chats para gestionar leads sin salir de la plataforma.  \n📊 Optimización continua con análisis de datos reales para mejorar ROI y escalabilidad.  \n🧠 Agente IA que aprende con cada interacción, aumentando la personalización y la efectividad comercial.\n\nNuestra solución ya es utilizada por empresas como Getlinko, Getpulpo, Labpyme y Lampscience, logrando casos de éxito como +10 reuniones calificadas con un solo comercial en un mes. Trabajo día a día con equipos de desarrollo y ventas para construir un producto robusto, intuitivo y escalable.",
+                    "company_picture_url": "https://media.licdn.com/dms/image/v2/D560BAQHvyOO57QC8Rg/company-logo_200_200/B56ZfGteZtHoAM-/0/1751385499674?e=1768435200&v=beta&t=7ygBNkg4MYHhXKuqDmcHXWAY7l0IuqmTw9qJqqN_eI0"
+                },
+                {
+                    "id": "2182617200",
+                    "end": "12/1/2023",
+                    "start": "6/1/2018",
+                    "skills": [],
+                    "status": "Full-time",
+                    "company": "Imaweb",
+                    "location": "Madrid, Comunidad de Madrid, España · Remote",
+                    "position": "Programador PHP",
+                    "description": "Desarrollo y mantenimiento de aplicaciones web utilizando PHP nativo.\nImplementación de funcionalidades y mejoras en aplicaciones existentes en entornos .NET, utilizando C# y ASP.NET.\nColaboración con equipos multidisciplinarios para la definición de requisitos, el diseño de soluciones técnicas y la planificación de proyectos.\nOptimización de la velocidad y rendimiento de las aplicaciones mediante técnicas de programación eficiente y la utilización de herramientas de depuración.\nIntegración de APIs y servicios web de terceros para ampliar las funcionalidades de las aplicaciones.",
+                    "company_picture_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGFFQmw-pGqzg/company-logo_200_200/company-logo_200_200/0/1697450626837/nextlanegroup_logo?e=1768435200&v=beta&t=5j3XBrfpuQLoh__ENDmdYMnhs5E_dJm5WHB9UEz8cyw"
+                },
+                {
+                    "id": "1394443965",
+                    "end": "6/1/2018",
+                    "start": "9/1/2015",
+                    "skills": [],
+                    "company": "Accenture España",
+                    "location": "Madrid, Madrid, España",
+                    "position": "Programador .NET",
+                    "description": "Mantenimiento y resolución de incidencias. \nDesarrollos, correctivos y evolutivos. \n",
+                    "company_picture_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFvfKqTR4zyBg/company-logo_200_200/B4EZkPWbkTHEAI-/0/1756899162763/accenture_espana_logo?e=1768435200&v=beta&t=W07AiFiVzPlawoWBGuDYYHbQDQoPqGd2h3n8g0_k_No"
+                }
+            ],
+            "connections_count": 461,
+            "public_identifier": "∞-fernando-silva-vera-6812bb176",
+            "skills_total_count": 26,
+            "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0",
+            "projects_total_count": 8,
+            "education_total_count": 2,
+            "languages_total_count": 0,
+            "background_picture_url": "https://media.licdn.com/dms/image/v2/C4E16AQHuLxTREICxcw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1572044929964?e=1768435200&v=beta&t=YdQmHeIACu033OtaVvNGVIFud_4ux_ZX1l6O0Le5kcM",
+            "volunteering_experience": [],
+            "profile_picture_url_large": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719063219665?e=1768435200&v=beta&t=uOpNA8auP_Or22oXErnnsXieYFd8lRePEuGe_pPQ5q8",
+            "certifications_total_count": 0,
+            "work_experience_total_count": 3,
+            "volunteering_experience_total_count": 0
+        },
+        "linkedin_account": {
+            "id": "J20nQRCQTD6lT5rj7fWMfg",
+            "name": "∞ FERNANDO Silva Vera",
+            "type": "LINKEDIN",
+            "groups": [],
+            "object": "Account",
+            "status": 200,
+            "sources": [
+                {
+                    "id": "J20nQRCQTD6lT5rj7fWMfg_MESSAGING",
+                    "status": "OK"
+                }
+            ],
+            "created_at": "2025-12-26T09:31:11.182Z",
+            "http_status": 200,
+            "connection_params": {
+                "im": {
+                    "id": "ACoAACmxAQEB0aiEgTcFD_oJp4ojhEFRFUZdKts",
+                    "username": "∞ FERNANDO Silva Vera",
+                    "premiumId": null,
+                    "organizations": [],
+                    "premiumFeatures": [],
+                    "publicIdentifier": "∞-fernando-silva-vera-6812bb176",
+                    "premiumContractId": null
+                }
+            }
+        }
+    },
+    "playbook_endpoint": {
+        "id": 3,
+        "user_id": 22,
+        "company_name": "f",
+        "sector_company": "f",
+        "company_size": "+10.000",
+        "company_location": "f",
+        "company_website": "https://synapsale.com/",
+        "company_social_media": [],
+        "communication_style": "B2B directo y orientado a resultados; lenguaje claro enfocado en productividad, ROI y crecimiento; tono profesional con foco en beneficios y CTAs de conversión",
+        "key_messages": "Prospección B2B con IA en un panel unificado; Orquestación multicanal con workflows e insights en tiempo real; Agente IA que aprende, prioriza oportunidades y acelera cierres; Automatiza prospección y cualificación para ahorrar tiempo y aumentar productiv",
+        "keywords_sector": "Ventas B2B; Prospección; IA aplicada a ventas; Orquestación multicanal; LinkedIn Sales Navigator; Apollo; Secuencias automatizadas; Inbox unificado; Leads calificados; Filtros avanzados; Insights en tiempo real; Alertas; Outbound; Nurturing; Cualificación",
+        "communication_restrictions": "test",
+        "ai_language": "es-co",
+        "created_at": "2025-03-25T07:23:38.000000Z",
+        "updated_at": "2025-12-26T08:20:50.000000Z",
+        "content_preferences": {
+            "emoticons": true
+        },
+        "last_updated_by_user_id": 22,
+        "products": [
+            {
+                "id": 867,
+                "company_profile_id": 3,
+                "main_value_proposition": "Prospección B2B con IA en un panel unificado",
+                "unique_benefit_compared": "Orquestación multicanal con workflows adaptativos e insights en tiempo real",
+                "description_products": "Centraliza LinkedIn, email y chat; secuencias IA; búsqueda avanzada (+50 filtros)",
+                "common_use_cases": "Generar leads con Sales Navigator/Apollo, campañas outbound, seguimiento y nurturing",
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            },
+            {
+                "id": 868,
+                "company_profile_id": 3,
+                "main_value_proposition": "Agente IA que prioriza oportunidades y acelera cierres",
+                "unique_benefit_compared": "Aprendizaje continuo integrado al proceso comercial",
+                "description_products": "Redacta mensajes, sugiere próximos pasos y gestiona un inbox único",
+                "common_use_cases": "Cualificación automática, respuesta rápida, handoff a ventas",
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            },
+            {
+                "id": 869,
+                "company_profile_id": 3,
+                "main_value_proposition": "Growth de marca personal en LinkedIn para social selling",
+                "unique_benefit_compared": "Automatizaciones y plantillas alineadas a la prospección",
+                "description_products": "Publicación guiada, networking y optimización del perfil",
+                "common_use_cases": "Crear contenido, conectar con ICP, aumentar alcance y credibilidad",
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            }
+        ],
+        "profiles": [
+            {
+                "id": 946,
+                "company_profile_id": 3,
+                "target_industries": "Tecnología SaaS; Servicios B2B; Marketing Digital",
+                "target_company_size": "{\"11-50\":true,\"51-200\":true}",
+                "target_company_revenue": "1M-5M",
+                "key_regions_target": "España; Latinoamérica",
+                "main_problems_faced": "Dificultad para escalar prospección manualmente y falta de integración entre canales de venta.",
+                "specific_benefits_offers": "Automatización multicanal con IA para aumentar leads calificados y mejorar la productividad del equipo comercial.",
+                "roles_to_contact": "Responsable de Ventas; Head de Marketing; CEO",
+                "criteria_to_qualify": null,
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            },
+            {
+                "id": 947,
+                "company_profile_id": 3,
+                "target_industries": "Fintech; Healthtech; E-commerce B2B",
+                "target_company_size": "{\"201-500\":true,\"501-1.000\":true}",
+                "target_company_revenue": "20M-50M",
+                "key_regions_target": "Estados Unidos; Europa Occidental",
+                "main_problems_faced": "Necesidad de unificar datos de ventas dispersos y optimizar campañas multicanal para acelerar el crecimiento.",
+                "specific_benefits_offers": "Centralización de prospección y campañas con IA para mejorar el control y análisis de resultados en tiempo real.",
+                "roles_to_contact": "Director Comercial; Gerente de Desarrollo de Negocio; CIO",
+                "criteria_to_qualify": null,
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            },
+            {
+                "id": 948,
+                "company_profile_id": 3,
+                "target_industries": "Industria Manufacturera; Consultoría Empresarial; Telecomunicaciones",
+                "target_company_size": "{\"1.001-5.000\":true,\"+10.000\":true}",
+                "target_company_revenue": "50M+",
+                "key_regions_target": "Global; Europa; América del Norte",
+                "main_problems_faced": "Procesos complejos de prospección con múltiples equipos y canales, dificultando la coordinación y seguimiento efectivo.",
+                "specific_benefits_offers": "Solución escalable con IA para automatizar y personalizar campañas multicanal, mejorando la eficiencia y ROI en ventas B2B.",
+                "roles_to_contact": "VP de Ventas; Chief Revenue Officer; Director de Transformación Digital",
+                "criteria_to_qualify": null,
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            }
+        ],
+        "competitors": [
+            {
+                "id": 1395,
+                "company_profile_id": 3,
+                "competitor_index": 0,
+                "main_competitors": "",
+                "differentiators_compared": null,
+                "strengths_compared": "",
+                "weaknesses_compared": "",
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            }
+        ],
+        "success_cases": [],
+        "resources": [
+            {
+                "id": 896,
+                "company_profile_id": 3,
+                "resource_title": "",
+                "resource_type": null,
+                "resource_link": "",
+                "offer": null,
+                "discount": 11,
+                "start_date": "2025-11-27",
+                "expiration_date": "2025-11-30",
+                "created_at": "2025-12-26T08:20:50.000000Z",
+                "updated_at": "2025-12-26T08:20:50.000000Z"
+            }
+        ],
+        "last_updated_by": {
+            "id": 22,
+            "processing_group": 14,
+            "organization_id": 5,
+            "created_by": null,
+            "name": "Fernando",
+            "role": "owner",
+            "picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0",
+            "has_sales_navigator": 0,
+            "email": "fernandosilv4c@gmail.com",
+            "outlook_email": null,
+            "language": "es-co",
+            "ui_language": "es",
+            "phone": "670782222",
+            "job_title": null,
+            "meeting_link": null,
+            "email_verified_at": null,
+            "content_token": null,
+            "content_limit_per_month": 3000,
+            "content_current_credits": 3000,
+            "content_access": false,
+            "content_activated": false,
+            "content_user_created": true,
+            "ai_base_prompt_id": null,
+            "created_at": "2025-03-13T15:05:51.000000Z",
+            "updated_at": "2025-12-26T09:31:23.000000Z",
+            "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0"
+        },
+        "user": {
+            "id": 22,
+            "processing_group": 14,
+            "organization_id": 5,
+            "created_by": null,
+            "name": "Fernando",
+            "role": "owner",
+            "picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0",
+            "has_sales_navigator": 0,
+            "email": "fernandosilv4c@gmail.com",
+            "outlook_email": null,
+            "language": "es-co",
+            "ui_language": "es",
+            "phone": "670782222",
+            "job_title": null,
+            "meeting_link": null,
+            "email_verified_at": null,
+            "content_token": null,
+            "content_limit_per_month": 3000,
+            "content_current_credits": 3000,
+            "content_access": false,
+            "content_activated": false,
+            "content_user_created": true,
+            "ai_base_prompt_id": null,
+            "created_at": "2025-03-13T15:05:51.000000Z",
+            "updated_at": "2025-12-26T09:31:23.000000Z",
+            "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0",
+            "linkedin_account": {
+                "id": 196,
+                "user_id": 22,
+                "unipile_id": "J20nQRCQTD6lT5rj7fWMfg",
+                "unipile_account": "linkedin",
+                "inmail_balance": null,
+                "profile": {
+                    "object": "UserProfile",
+                    "skills": [
+                        {
+                            "name": "Arquitectura de software",
+                            "endorsed": false,
+                            "insights": [
+                                "CTO at Synapsale"
+                            ],
+                            "endorsement_id": null,
+                            "endorsement_count": 0
+                        },
+                        {
+                            "name": " Inteligencia Artificial aplicada a ventas",
+                            "endorsed": false,
+                            "insights": [
+                                "CTO at Synapsale"
+                            ],
+                            "endorsement_id": null,
+                            "endorsement_count": 0
+                        }
+                    ],
+                    "status": 200,
+                    "is_self": true,
+                    "headline": "Full Stack developer | laravel | vue | .net | linux",
+                    "location": "Greater Madrid Metropolitan Area",
+                    "projects": [
+                        {
+                            "end": "10/1/2023",
+                            "name": "Creación de calendario para shopify",
+                            "start": "1/1/2023",
+                            "skills": [],
+                            "description": "Creación de una aplicación en shopify para seleccionar la fecha de entrega de los pedidos, la aplicación cuenta con un administrador para que el usuario configure las entregas como el quiera."
+                        },
+                        {
+                            "end": "8/1/2023",
+                            "name": "Desarrollo y personalización de tiendas en Shopify",
+                            "start": "12/1/2022",
+                            "skills": [],
+                            "description": "En mis proyectos personales, me he especializado en el desarrollo y personalización de tiendas en la plataforma Shopify. Mi enfoque principal ha sido la modificación del código Liquid para adaptar y mejorar los temas de Shopify según mis propias necesidades. Además, he llevado a cabo la integración de APIs propias, lo que ha permitido ampliar las funcionalidades de las tiendas y ofrecer soluciones personalizadas.\n\nEn cada proyecto, he trabajado para comprender mis objetivos y requisitos, y así brindar soluciones que cumplan con mis expectativas. Mi experiencia en la modificación de código Liquid me ha permitido implementar cambios visuales, agregar características personalizadas y optimizar el rendimiento de las tiendas de Shopify.\n\nAlgunos aspectos destacados de mis proyectos en Shopify incluyen:\n\nPersonalización de la apariencia visual de los temas de Shopify mediante modificaciones en el código Liquid y CSS.\nIntegración de APIs propias para sincronizar inventarios, procesar pagos personalizados o conectar con sistemas externos.\nImplementación de funcionalidades específicas, como sistemas de búsqueda avanzada, procesos de compra personalizados y configuración de precios dinámicos.\nOptimización del rendimiento de las tiendas mediante técnicas de carga rápida, caching y optimización de imágenes.\n\nMe enorgullece haber desarrollado y personalizado varios proyectos en Shopify, brindando soluciones únicas y adaptadas a mis propias necesidades. Si estás buscando un profesional especializado en Shopify y en la modificación de código Liquid, estoy disponible para colaborar en emocionantes desafíos y proyectos. No dudes en contactarme para discutir cómo puedo ayudarte a alcanzar tus objetivos en el mundo del comercio electrónico."
+                        }
+                    ],
+                    "provider": "LINKEDIN",
+                    "websites": [],
+                    "education": [
+                        {
+                            "id": "567524990",
+                            "end": "6/1/2016",
+                            "start": "9/1/2014",
+                            "degree": "Desarrollo De Aplicaciones Multiplataforma",
+                            "school": "Santo Domingo Savio"
+                        },
+                        {
+                            "id": "567526204",
+                            "end": "7/1/2014",
+                            "start": "9/1/2012",
+                            "degree": "Sistemas Microinformáticos y Redes",
+                            "school": "Santo Domingo Savio"
+                        }
+                    ],
+                    "languages": [],
+                    "last_name": "Silva Vera",
+                    "first_name": "∞ FERNANDO",
+                    "is_creator": false,
+                    "is_premium": false,
+                    "member_urn": "699465985",
+                    "http_status": 200,
+                    "provider_id": "ACoAACmxAQEB0aiEgTcFD_oJp4ojhEFRFUZdKts",
+                    "contact_info": {
+                        "emails": [
+                            "fernandosilv4c@gmail.com"
+                        ]
+                    },
+                    "linkedin_url": "https://www.linkedin.com/in/∞-fernando-silva-vera-6812bb176",
+                    "is_influencer": false,
+                    "certifications": [],
+                    "follower_count": 462,
+                    "primary_locale": {
+                        "country": "ES",
+                        "language": "es"
+                    },
+                    "creator_website": {
+                        "url": "https://github.com/FernandoSilvaVera",
+                        "description": "https://github.com/FernandoSilvaVera"
+                    },
+                    "is_open_profile": false,
+                    "is_relationship": false,
+                    "work_experience": [
+                        {
+                            "id": "2677645811",
+                            "end": null,
+                            "start": "7/1/2025",
+                            "skills": [],
+                            "status": "Freelance",
+                            "company": "Synapsale",
+                            "location": "Remote",
+                            "position": "CTO",
+                            "description": "CTO de Synapsale, una plataforma B2B que acelera las ventas mediante IA y automatización inteligente. Lidero el desarrollo de producto y la arquitectura tecnológica, gestionando un stack que incluye Laravel, React. Nos enfocamos en ayudar a equipos comerciales a generar clientes calificados y aumentar conversiones mediante:\n\n🚀 Prospección avanzada con LinkedIn Sales Navigator + Apollo, usando más de 50 filtros para encontrar el cliente ideal.  \n🤖 Campañas multicanal automatizadas con IA, mensajes personalizados y seguimiento inteligente.  \n📩 Inbox unificado que centraliza LinkedIn, emails y chats para gestionar leads sin salir de la plataforma.  \n📊 Optimización continua con análisis de datos reales para mejorar ROI y escalabilidad.  \n🧠 Agente IA que aprende con cada interacción, aumentando la personalización y la efectividad comercial.\n\nNuestra solución ya es utilizada por empresas como Getlinko, Getpulpo, Labpyme y Lampscience, logrando casos de éxito como +10 reuniones calificadas con un solo comercial en un mes. Trabajo día a día con equipos de desarrollo y ventas para construir un producto robusto, intuitivo y escalable.",
+                            "company_picture_url": "https://media.licdn.com/dms/image/v2/D560BAQHvyOO57QC8Rg/company-logo_200_200/B56ZfGteZtHoAM-/0/1751385499674?e=1768435200&v=beta&t=7ygBNkg4MYHhXKuqDmcHXWAY7l0IuqmTw9qJqqN_eI0"
+                        },
+                        {
+                            "id": "2182617200",
+                            "end": "12/1/2023",
+                            "start": "6/1/2018",
+                            "skills": [],
+                            "status": "Full-time",
+                            "company": "Imaweb",
+                            "location": "Madrid, Comunidad de Madrid, España · Remote",
+                            "position": "Programador PHP",
+                            "description": "Desarrollo y mantenimiento de aplicaciones web utilizando PHP nativo.\nImplementación de funcionalidades y mejoras en aplicaciones existentes en entornos .NET, utilizando C# y ASP.NET.\nColaboración con equipos multidisciplinarios para la definición de requisitos, el diseño de soluciones técnicas y la planificación de proyectos.\nOptimización de la velocidad y rendimiento de las aplicaciones mediante técnicas de programación eficiente y la utilización de herramientas de depuración.\nIntegración de APIs y servicios web de terceros para ampliar las funcionalidades de las aplicaciones.",
+                            "company_picture_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGFFQmw-pGqzg/company-logo_200_200/company-logo_200_200/0/1697450626837/nextlanegroup_logo?e=1768435200&v=beta&t=5j3XBrfpuQLoh__ENDmdYMnhs5E_dJm5WHB9UEz8cyw"
+                        },
+                        {
+                            "id": "1394443965",
+                            "end": "6/1/2018",
+                            "start": "9/1/2015",
+                            "skills": [],
+                            "company": "Accenture España",
+                            "location": "Madrid, Madrid, España",
+                            "position": "Programador .NET",
+                            "description": "Mantenimiento y resolución de incidencias. \nDesarrollos, correctivos y evolutivos. \n",
+                            "company_picture_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFvfKqTR4zyBg/company-logo_200_200/B4EZkPWbkTHEAI-/0/1756899162763/accenture_espana_logo?e=1768435200&v=beta&t=W07AiFiVzPlawoWBGuDYYHbQDQoPqGd2h3n8g0_k_No"
+                        }
+                    ],
+                    "connections_count": 461,
+                    "public_identifier": "∞-fernando-silva-vera-6812bb176",
+                    "skills_total_count": 26,
+                    "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719063219659?e=1768435200&v=beta&t=0M-uAXUw1tUvCRWiVIsya6xRFgz98guwZa1p_mFKGI0",
+                    "projects_total_count": 8,
+                    "education_total_count": 2,
+                    "languages_total_count": 0,
+                    "background_picture_url": "https://media.licdn.com/dms/image/v2/C4E16AQHuLxTREICxcw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1572044929964?e=1768435200&v=beta&t=YdQmHeIACu033OtaVvNGVIFud_4ux_ZX1l6O0Le5kcM",
+                    "volunteering_experience": [],
+                    "profile_picture_url_large": "https://media.licdn.com/dms/image/v2/D4D03AQHWmltMzAatFA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719063219665?e=1768435200&v=beta&t=uOpNA8auP_Or22oXErnnsXieYFd8lRePEuGe_pPQ5q8",
+                    "certifications_total_count": 0,
+                    "work_experience_total_count": 3,
+                    "volunteering_experience_total_count": 0
+                },
+                "account": {
+                    "id": "J20nQRCQTD6lT5rj7fWMfg",
+                    "name": "∞ FERNANDO Silva Vera",
+                    "type": "LINKEDIN",
+                    "groups": [],
+                    "object": "Account",
+                    "status": 200,
+                    "sources": [
+                        {
+                            "id": "J20nQRCQTD6lT5rj7fWMfg_MESSAGING",
+                            "status": "OK"
+                        }
+                    ],
+                    "created_at": "2025-12-26T09:31:11.182Z",
+                    "http_status": 200,
+                    "connection_params": {
+                        "im": {
+                            "id": "ACoAACmxAQEB0aiEgTcFD_oJp4ojhEFRFUZdKts",
+                            "username": "∞ FERNANDO Silva Vera",
+                            "premiumId": null,
+                            "organizations": [],
+                            "premiumFeatures": [],
+                            "publicIdentifier": "∞-fernando-silva-vera-6812bb176",
+                            "premiumContractId": null
+                        }
+                    }
+                },
+                "created_at": "2025-12-23T12:17:27.000000Z",
+                "updated_at": "2025-12-27T23:01:27.000000Z"
+            }
+        }
+    }
+}

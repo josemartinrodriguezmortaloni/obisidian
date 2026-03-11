@@ -1,0 +1,82 @@
+[
+    {                                                                                                                                                                                                           
+        "label": "Primer Mensaje",
+        "case": "Mensaje de presentación",
+        "mensaje": "Hola {{first_name}}, he estado viendo cómo en {{company_name}} trabajan en el sector {{industry}}, y últimamente se habla mucho sobre {{Main Problem1}}.__saltoDeLineaMe encantaría conocer tu perspectiva sobre esto y cómo lo están abordando en {{company_name}}.__saltoDeLinea¿Qué opinas?"
+    },
+    {
+        "label": "Primer Mensaje",
+        "case": "Felicitar por reciente puesto",
+        "mensaje": "Hola {{first_name}}, quería felicitarte por tu nuevo cargo como {{job_tittle}} en {{company_name}}.__saltoDeLineaMe gustaría conocer más sobre tu visión sobre {{main problem1}} en {{industry}} y compartir algunas ideas sobre esto.__saltoDeLinea¿Que podrías decirme al respecto? Saludos"
+    },
+    {
+        "label": "Primer Mensaje",
+        "case": "Mensaje para abrir conversación 1",
+        "mensaje": "Hola {{first_name}}, viendo que en {{company_name}} están en el sector de {{industry}}, pensé que te podría interesar saber como {{My company name}} aborda  {{Main Problem1}}.__saltoDeLineaRecientemente hemos visto cómo empresas similares han conseguido {{success_cases .results_achieved1}} gracias a {{Main Value}} y creo que podría ser una conversación interesante.__saltoDeLinea¿Te gustaría intercambiar ideas sobre esto?__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Primer Mensaje",
+        "case": "Mensaje para abrir conversación 2",
+        "mensaje": "Hola {{first_name}}, viendo que en {{company_name}} están en el sector de {{industry}}, pensé que te podría interesar saber como {{My company name}} aborda  {{Main Problem1}}.__saltoDeLineaRecientemente hemos visto cómo empresas similares han conseguido {{success_cases .results_achieved2}} gracias a {{Main Value}} y creo que podría ser una conversación interesante.__saltoDeLinea¿Te gustaría intercambiar ideas sobre esto?__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Primer Mensaje",
+        "case": "Mensaje para abrir conversación 3",
+        "mensaje": "Hola {{first_name}}, viendo que en {{company_name}} están en el sector de {{industry}}, pensé que te podría interesar saber como {{My company name}} aborda  {{Main Problem1}}.__saltoDeLineaRecientemente hemos visto cómo empresas similares han conseguido {{success_cases .results_achieved3}} gracias a {{Main Value}} y creo que podría ser una conversación interesante.__saltoDeLinea¿Te gustaría intercambiar ideas sobre esto?__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Primer Mensaje",
+        "case": "Mensaje con pregunta estratégica",
+        "mensaje": "Hola {{first_name}}, estuve revisando tu perfil y vi que siendo {{Job_tittle}} en {{company_name}} me podrías ayudar con una pregunta:__saltoDeLinea¿Cómo están abordando actualmente {{Main Problem1}} en {{company_name}}?__saltoDeLineaMe encantaría conocer tu visión.__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Mensaje con una propuesta de valor",
+        "case": "Compartiendo caso de éxito 1",
+        "mensaje": "Hola {{first_name}}, quería compartirte un caso interesante: en {{Success Cases Company1}}, ayudamos a {{Success Cases Problem faced1}}, y lograron {{Success Cases Result1}}.__saltoDeLineaMe pareció relevante para {{company_name}} y creo que podríamos tener una conversación interesante al respecto.__saltoDeLinea¿Cómo lo ves?__saltoDeLineaSaludos"
+    }, 
+    {
+        "label": "Mensaje con una propuesta de valor",
+        "case": "Compartiendo caso de éxito 2",
+        "mensaje": "Hola {{first_name}}, quería compartirte un caso interesante: en {{Success Cases Company2}}, ayudamos a {{Success Cases Problem faced2}}, y lograron {{Success Cases Result2}}.__saltoDeLineaMe pareció relevante para {{company_name}} y creo que podríamos tener una conversación interesante al respecto.__saltoDeLinea¿Cómo lo ves?__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Mensaje con una propuesta de valor",
+        "case": "Compartiendo caso de éxito 3",
+        "mensaje": "Hola {{first_name}}, quería compartirte un caso interesante: en {{Success Cases Company3}}, ayudamos a {{Success Cases Problem faced3}}, y lograron {{Success Cases Result3}}.__saltoDeLineaMe pareció relevante para {{company_name}} y creo que podríamos tener una conversación interesante al respecto.__saltoDeLinea¿Cómo lo ves?__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Mensaje con una propuesta de valor",
+        "case": "Prueba social para generar confianza",
+        "mensaje": "Hola {{first_name}}, muchas empresas en el sector de {{industry}} ya están utilizando {{Main Value}} que ofrecemos en {{My company name}} con excelentes resultados.__saltoDeLineaMe encantaría compartir algunas experiencias y ver si podría ser útil para {{company_name}}.__saltoDeLinea¿Te interesaría explorar esto?__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Seguimiento con llamada a la acción",
+        "case": "Invitación a prueba gratuita",
+        "mensaje": "Hola {{first_name}}, quería recordarte que en {{My Company Name}} ofrecemos una prueba gratuita que termina en {{expiration date}} para que puedas experimentar {{Main Value}} sin compromiso.__saltoDeLineaSi quieres probarlo, puedes acceder aquí: {{resource_Link1}}.__saltoDeLinea¿Te gustaría echarle un vistazo?__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Seguimiento con llamada a la acción",
+        "case": "Compartir un recurso: e-book/video",
+        "mensaje": "Hola {{first_name}}, sé que en {{company_name}} están buscando formas de mejorar {{Main Problem1}}.__saltoDeLineaPara que veas cómo podemos ayudarte, me encantaría compartir contigo este {{Resource type1}} donde hablamos de nuestra {{Main Value}} y como puede ayudar a empresas como {{company_name}.__saltoDeLineaTe dejo por aquí el enlace {{resource_link1}}.Si es de tu interés me dices y será un placer ayudarte__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Seguimiento con llamada a la acción",
+        "case": "Compartir un recurso: oferta",
+        "mensaje": "Hola {{first_name}}, no tuve respuesta a mi primer mensaje, quería compartir en esta ocasión este {{Resource type2}}. Tendrás para aprovechar nuestra oferta hasta {{Expiration date}}.__saltoDeLineaTe dejo por aquí el enlace {{resource_link2}}.Si es de tu interés me dices y será un placer ayudarte.__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Mensaje de cierre",
+        "case": "Mensaje de cierre compartiendo agenda",
+        "mensaje": "Hola {{first_name}}, al no tener respuesta entiendo que no es el mejor momento. No obstante, Si en algún momento lo ves conveniente, me gustaría tener una breve reunión sobre {{Main Problem1}} en {{company_name}}.__saltoDeLineaAquí te dejo mi enlace por si deseas reservar cuando te venga bien: {{my_metting_link}}.__saltoDeLineaSaludos"
+    },
+    {
+        "label": "Mensaje de cierre",
+        "case": "Último recordatorio",
+        "mensaje": "Hola {{first_name}}, solo quería hacerte un breve recordatorio sobre mis últimos mensajes.__saltoDeLineaEntiendo que puedes estar ocupado, si en algún momento te interesa retomarlo, estaré encantado de ayudarte.__saltoDeLineaUn saludo"
+    },
+    {
+        "label": "Mensaje de cierre",
+        "case": "Mensaje cierre con invitación a demo ",
+        "mensaje": "Hola {{first_name}}, como último intento, quería recordarte que en {{My company name}} hemos ayudado a  empresas como {{company_name}} gracias a {{Main Value}} consiguiendo excelentes resultados.__saltoDeLinea Estarías interesado/a en hablar conmigo  la semana que viene para ver esto con más detalle?.__saltoDeLinea.Gracias"
+    }
+]  

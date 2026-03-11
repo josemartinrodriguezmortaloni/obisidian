@@ -1,0 +1,227 @@
+@startuml domain-class-diagram
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam classAttributeIconSize 0
+
+title Modelo de Dominio - Diagrama de Clases
+caption Basado en datos reales de Synapsale API
+
+' ============================================
+' CORE ENTITIES
+' ============================================
+
+class Lead {
+    -id: int
+    -lead_list_id: int
+    -first_name: str
+    -last_name: str
+    -job_title: str
+    -company_name: str
+    -bio: Optional<str>
+    -skills: Optional<str>
+    -education: Optional<str>
+    -city: Optional<str>
+    -country: Optional<str>
+    -linkedin_url: Optional<str>
+    -email: Optional<str>
+    -followers: int
+    -connections: int
+    -is_first_degree_connection: bool
+    -work_experience: List<WorkExperience>
+    -campaign_history: CampaignHistory
+    -signals: List<Signal>
+    __
+    +has_recent_job_change(): bool
+    +get_pain_indicators(): List<str>
+    +get_personalization_hooks(): List<str>
+    +infer_seniority(): Seniority
+    +get_years_in_current_role(): int
+}
+
+class Sender {
+    -id: int
+    -name: str
+    -job_title: str
+    -company_name: str
+    -headline: Optional<str>
+    -language: str
+    -meeting_link: Optional<str>
+    -profile_picture_url: Optional<str>
+    -work_experience: List<WorkExperience>
+    -skills: List<str>
+    __
+    +find_common_ground(lead): List<str>
+    +get_credibility_points(): List<str>
+}
+
+class Playbook {
+    -id: int
+    -company_name: str
+    -sector_company: str
+    -company_size: str
+    -company_website: Optional<str>
+    -communication_style: str
+    -key_messages: str
+    -keywords_sector: str
+    -communication_restrictions: Optional<str>
+    -ai_language: str
+    -content_preferences: ContentPreferences
+    -products: List<Product>
+    -icp_profiles: List<ICPProfile>
+    -competitors: List<Competitor>
+    -success_cases: List<SuccessCase>
+    -resources: List<Resource>
+    __
+    +get_relevant_case_for(lead): SuccessCase
+    +get_best_matching_icp(lead): ICPProfile
+    +get_main_value_proposition(): str
+}
+
+class Sequence {
+    -id: str
+    -lead: Lead
+    -sender: Sender
+    -playbook: Playbook
+    -channel: Channel
+    -messages: List<Message>
+    -strategy: Strategy
+    __
+    +add_message(msg): void
+    +get_context_for_step(): Context
+    +is_complete(): bool
+    +should_continue(): bool
+}
+
+class Message {
+    -step: SequenceStep
+    -content: str
+    -strategy_used: MessageStrategy
+    -personalization_hooks: List<str>
+    -quality_score: float
+    -created_at: datetime
+    __
+    +char_count(): int
+    +word_count(): int
+    +is_within_channel_limits(): bool
+}
+
+' ============================================
+' VALUE OBJECTS - Lead Related
+' ============================================
+
+class WorkExperience <<Value Object>> {
+    -company: str
+    -position: str
+    -location: Optional<str>
+    -start: str
+    -end: Optional<str>
+    -description: Optional<str>
+    __
+    +is_current(): bool
+    +duration_months(): int
+}
+
+class CampaignHistory <<Value Object>> {
+    -linkedin_message_sent: int
+    -linkedin_replied: int
+    -email_sent: int
+    -email_opened: int
+    -meeting_scheduled: int
+    -campaign_mail_status: Optional<str>
+    -campaign_linkedin_status: Optional<str>
+    __
+    +has_previous_interaction(): bool
+    +has_responded(): bool
+    +is_engaged(): bool
+}
+
+class Signal <<Value Object>> {
+    -type: SignalType
+    -description: str
+    -date: Optional<date>
+}
+
+' ============================================
+' VALUE OBJECTS - Playbook Related
+' ============================================
+
+class Product <<Value Object>> {
+    -id: int
+    -main_value_proposition: str
+    -unique_benefit_compared: str
+    -description_products: str
+    -common_use_cases: str
+}
+
+class ICPProfile <<Value Object>> {
+    -id: int
+    -target_industries: str
+    -target_company_size: str
+    -target_company_revenue: str
+    -key_regions_target: str
+    -main_problems_faced: str
+    -specific_benefits_offers: str
+    -roles_to_contact: str
+    __
+    +matches_lead(lead): float
+    +get_industries_list(): List<str>
+    +get_roles_list(): List<str>
+}
+
+class Competitor <<Value Object>> {
+    -main_competitors: str
+    -differentiators_compared: Optional<str>
+    -strengths_compared: str
+    -weaknesses_compared: str
+}
+
+class ContentPreferences <<Value Object>> {
+    -emoticons: bool
+}
+
+class SuccessCase <<Value Object>> {
+    -company: str
+    -problem: str
+    -result: str
+    -link: Optional<str>
+}
+
+class Resource <<Value Object>> {
+    -resource_title: str
+    -resource_type: Optional<str>
+    -resource_link: str
+    -offer: Optional<str>
+    -discount: Optional<int>
+    -start_date: Optional<date>
+    -expiration_date: Optional<date>
+    __
+    +is_active(): bool
+}
+
+' ============================================
+' RELATIONSHIPS
+' ============================================
+
+' Core relationships
+Sequence "1" *-- "1" Lead : contains
+Sequence "1" *-- "1" Sender : contains
+Sequence "1" *-- "1" Playbook : contains
+Sequence "1" *-- "1..*" Message : contains
+
+' Lead relationships
+Lead "1" *-- "0..*" WorkExperience : has
+Lead "1" *-- "1" CampaignHistory : has
+Lead "1" *-- "0..*" Signal : has
+
+' Sender relationships
+Sender "1" *-- "0..*" WorkExperience : has
+
+' Playbook relationships
+Playbook "1" *-- "1" ContentPreferences : has
+Playbook "1" *-- "1..*" Product : offers
+Playbook "1" *-- "1..*" ICPProfile : targets
+Playbook "1" *-- "0..*" Competitor : competes_with
+Playbook "1" *-- "0..*" SuccessCase : demonstrates
+Playbook "1" *-- "0..*" Resource : provides
+
+@enduml

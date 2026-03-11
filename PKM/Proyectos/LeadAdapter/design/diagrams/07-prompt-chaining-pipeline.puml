@@ -1,0 +1,40 @@
+@startuml prompt-chaining-pipeline
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title Pipeline de Prompt Chaining
+
+rectangle "STEP 1: Classify" as step1 #LightBlue {
+    (Lead Classification) as S1
+    note bottom: ~100 tokens
+}
+
+rectangle "STEP 2: Analyze" as step2 #LightGreen {
+    (Context Analysis) as S2
+    note bottom: ~150 tokens
+}
+
+rectangle "STEP 3: Select" as step3 #LightYellow {
+    (Strategy Selection) as S3
+    note bottom: ~100 tokens
+}
+
+rectangle "STEP 4: Generate" as step4 #LightCoral {
+    (Message Generation) as S4
+    note bottom: ~500 tokens
+}
+
+database "Context Accumulator" as ACC #White {
+}
+note bottom of ACC: JSON estructurado con\nresultados acumulados
+
+S1 --> S2
+S2 --> S3
+S3 --> S4
+
+S1 --> ACC
+S2 --> ACC
+S3 --> ACC
+ACC --> S4
+
+@enduml

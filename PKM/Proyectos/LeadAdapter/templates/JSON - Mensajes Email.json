@@ -1,0 +1,155 @@
+[
+  { 
+    "label": "Email de presentación",
+    "case": "Pregunta clave sobre punto de dolor 1",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaMe preguntaba cómo en {{company_name}} están gestionando {{Main Problem1}}, ya que muchas empresas en {{industry}} se enfrentan a este desafío.__saltoDeLinea__saltoDeLineaEn {{My Company name}}, ayudamos a empresas como la tuya a resolver este desafío mediante {{Specific benefit1}} y me gustaría mostrarte como. Si te interesa, podemos agendar una breve llamada para explorar más detalles. ¿Cuándo tendrías un hueco para comentarlo?__saltoDeLinea__saltoDeLineaEspero tu respuesta. __saltoDeLinea__saltoDeLineaSaludos." 
+  },
+
+ { 
+    "label": "Email de presentación",
+    "case": "Pregunta clave sobre punto de dolor 2",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaMe preguntaba cómo en {{company_name}} están gestionando {{Main Problem2}}, ya que muchas empresas en {{industry}} se enfrentan a este desafío.__saltoDeLinea__saltoDeLineaEn {{My Company}}, ayudamos a empresas como la tuya a resolver este desafío mediante {{Specific benefit2}} y me gustaría mostrarte como. Si te interesa, podemos agendar una breve llamada para explorar más detalles. ¿Cuándo tendrías un hueco para comentarlo?.__saltoDeLinea__saltoDeLineaEspero tu respuesta.__saltoDeLinea__saltoDeLineaSaludos." 
+  },
+
+ { 
+    "label": "Email de presentación",
+    "case": "Pregunta clave sobre punto de dolor 3",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaMe preguntaba cómo en {{company_name}} están gestionando {{Main Problem3}}, ya que muchas empresas en {{industry}} se enfrentan a este desafío.__saltoDeLinea__saltoDeLineaEn {{My Company}}, ayudamos a empresas como la tuya a resolver este desafío mediante {{Specific benefit3}} y me gustaría mostrarte como. Si te interesa, podemos agendar una breve llamada para explorar más detalles. ¿Cuándo tendrías un hueco para comentarlo?.__saltoDeLineaEspero tu respuesta.__saltoDeLinea__saltoDeLineaSaludos." 
+  },
+
+
+
+
+  { 
+    "label": "Email de presentación",
+    "case": "referencia a un artículo publicado",
+    "mensaje": "Hola {{first_name}},saltoDeLinea__saltoDeLineaLeí un artículo relacionado con {{industry}} y me pareció interesante. Te dejo por aquí el enlace:__saltoDeLinea__saltoDeLineaCoincido en que es un reto clave en el sector y me encantaría conocer más sobre tu punto de vista.__saltoDeLinea__saltoDeLineaEn {{My Company Name}}, ayudamos a empresas que enfrentan desafíos similares a través de {{Main Value}} gracias a {{Unique Benefit}}.__saltoDeLinea__saltoDeLineaSi te encuentras en una situación similar y te interesa, podemos agendar una breve llamada para intercambiar ideas. ¿Qué hueco tendrías en los próximos días?.__saltoDeLinea__saltoDeLineaQuedo atento.__saltoDeLineaSaludos." 
+  },
+  { 
+    "label": "Email de presentación",
+    "case": "Con un cumplido como excusa",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaQuería felicitarte por el gran trabajo que estáis haciendo en {{company_name}}. Os sigo en LinkedIn y me parece impresionante lo que habeis logrado.__saltoDeLinea__saltoDeLineaEn {{My Company Name}}, ayudamos a empresas como  {{company_name}} gracias a {{Unique Benefit}} y me encantaría saber si abordáis problemas similares. Si eres la persona encargada de este tema y lo ves conveniente, podemos agendar una breve reunión y tratar el asunto.__saltoDeLinea__saltoDeLinea¿Cuando tendrías disponibilidad?. __saltoDeLinea__saltoDeLineaSaludos." 
+  },
+  { 
+    "label": "Email de presentación",
+    "case": "Referencia a una tecnología o herramienta utilizada ",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaHe comprobado que en {{company_name}} están utilizando:   , una herramienta clave en {{industry}} .__saltoDeLinea__saltoDeLineaEn {{My Company Name}}, ayudamos a empresas que de igual modo la utilizan y se enfrentan a {{Main Problem}}.__saltoDeLinea__saltoDeLineaMe encantaría saber si os encontráis en situaciones similares y cómo lo están gestionando.__saltoDeLinea__saltoDeLineaSi te interesa, podríamos conversar brevemente para compartir experiencias. ¿Tendrías algún hueco en los próximos días? __saltoDeLinea__saltoDeLineaEspero tu respuesta, gracias.__saltoDeLinea__saltoDeLineaUn saludo" 
+  },
+  { 
+    "label": "Email de presentación",
+    "case": "Preguntando por el decisor 1",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaEspero que estés teniendo un buen día. Te contacto porque en {{My Company Name}} ayudamos a empresas como {{company_name}} a resolver {{Main Problem1}} obteniendo {{Specific benefit1}}.__saltoDeLinea__saltoDeLineaQuería preguntarte si eres la persona indicada para hablar sobre este tema o si hay alguien en tu equipo a quien me recomiendes contactar.__saltoDeLinea__saltoDeLineaCualquier referencia sería de gran ayuda. ¡Gracias de antemano!" 
+  },
+  { 
+    "label": "Email de presentación",
+    "case": "Preguntando por el decisor 2",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaEspero que estés teniendo un buen día. Te contacto porque en {{My Company Name}} ayudamos a empresas como {{company_name}} a resolver {{Main Problem2}} obteniendo {{Specific benefit2}}.__saltoDeLinea__saltoDeLineaQuería preguntarte si eres la persona indicada para hablar sobre este tema o si hay alguien en tu equipo a quien me recomiendes contactar.__saltoDeLinea__saltoDeLineaCualquier referencia sería de gran ayuda. ¡Gracias de antemano!" 
+  },
+  { 
+    "label": "Email de presentación",
+    "case": "Preguntando por el decisor 3",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaEspero que estés teniendo un buen día. Te contacto porque en {{My Company Name}} ayudamos a empresas como {{company_name}} a resolver {{Main Problem3}} obteniendo {{Specific benefit3}}.__saltoDeLinea__saltoDeLineaQuería preguntarte si eres la persona indicada para hablar sobre este tema o si hay alguien en tu equipo a quien me recomiendes contactar.__saltoDeLinea__saltoDeLineaCualquier referencia sería de gran ayuda. ¡Gracias de antemano!" 
+  },
+  {
+    "label": "Email con propuesta de valor",
+    "case": "Un recurso de valor 1 (e-book)",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaQuería compartir contigo información que considero, podría ser útil para {{company_name}}. Se trata de {{Resource Type1}}, donde exploramos {{main problem}} en {{industry}}.__saltoDeLinea__saltoDeLineaPuedes acceder al recurso aquí: {{resource_link1}}.__saltoDeLinea__saltoDeLineaEspero que lo encuentres interesante. Si quieres comentar algún punto o tienes preguntas, estaré encantado/a de conversar .__saltoDeLinea__saltoDeLineaSaludos."
+  },
+
+ {
+    "label": "Email con propuesta de valor",
+    "case": "Un recurso de valor 2 (video/webinar)",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaQuería compartir contigo información que considero, podría ser útil para {{company_name}}. Se trata de {{Resource Type2}}, donde exploramos {{main problem}} en {{industry}}.__saltoDeLinea__saltoDeLineaPuedes acceder al recurso aquí: {{resource_link2}}.__saltoDeLinea__saltoDeLineaEspero que lo encuentres interesante. Si quieres comentar algún punto o tienes preguntas, estaré encantado/a de conversar.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+
+
+
+  {
+    "label": "Email con propuesta de valor",
+    "case": "Compartir un caso de éxito 1",
+         "mensaje": "Estimado/a {{first_name}},__saltoDeLinea__saltoDeLineaSoy {{My Job Title}} en {{My Company Name}}. Quería compartir contigo este caso: {{success_case_link1}} , donde ayudamos a empresas como {{Success case Company name1}} a resolver {{Success case Problem faced1}}.__saltoDeLinea__saltoDeLineaMe gustaría saber si os enfrentais a este problema y cómo lo resolvéis en {{company_name}} para explorar posibles sinergias.__saltoDeLinea__saltoDeLinea¿Tendrías unos minutos esta semana para una breve conversación?__saltoDeLinea__saltoDeLineaQuedo atento/a a tu respuesta.__saltoDeLinea__saltoDeLineaSaludos cordiales." 
+  },
+{ 
+    "label": "Email con propuesta de valor",
+    "case": "Compartir un caso de éxito 2",
+   "mensaje": "Estimado/a {{first_name}},__saltoDeLinea__saltoDeLineaSoy {{My Job Title}} en {{My Company Name}}. Quería compartir contigo este caso: {{success_case_link2}} , donde ayudamos a empresas como {{Success case Company name2}} a resolver {{Success case Problem faced2}}.__saltoDeLinea__saltoDeLineaMe gustaría saber si os enfrentais a este problema y cómo lo resolvéis en {{company_name}} para explorar posibles sinergias.__saltoDeLinea__saltoDeLinea¿Tendrías unos minutos esta semana para una breve conversación?__saltoDeLinea__saltoDeLineaQuedo atento/a a tu respuesta.__saltoDeLinea__saltoDeLineaSaludos cordiales."  
+  },
+{ 
+    "label": "Email con propuesta de valor",
+    "case": "Compartir un caso de éxito 3",
+   "mensaje": "Estimado/a {{first_name}},__saltoDeLinea__saltoDeLineaSoy {{My Job Title}} en {{My Company Name}}. Quería compartir contigo este caso: {{success_case_link3}} , donde ayudamos a empresas como {{Success case Company name3}} a resolver {{Success case Problem faced3}}.__saltoDeLinea__saltoDeLineaMe gustaría saber si os enfrentais a este problema y cómo lo resolvéis en {{company_name}} para explorar posibles sinergias.__saltoDeLinea__saltoDeLinea¿Tendrías unos minutos esta semana para una breve conversación?__saltoDeLinea__saltoDeLineaQuedo atento/a a tu respuesta.__saltoDeLinea__saltoDeLineaSaludos cordiales."  
+  },
+  {
+    "label": "Email de seguimiento con llamada a la acción",
+    "case": "Seguimiento a recurso compartido preguntando por el decisor ",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaQuería hacer un breve seguimiento sobre lo que te envié anteriormente en relación con {{Resource tittle1}}. No se si lo viste interesante. En {{My Company Name}}, hemos ayudado a empresas como {{company_name}} y creo que podría ser relevante para ti.__saltoDeLinea__saltoDeLineaSi estás interesado/a, estaré encantado de darte mas detalles. ¿Te vendría bien una llamada esta semana?__saltoDeLinea__saltoDeLineaSaludos."
+  },
+
+  {
+    "label": "Email de seguimiento con llamada a la acción",
+    "case": "Seguimiento a recurso compartido preguntando por el decisor ",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaQuería hacer un breve seguimiento sobre lo que te envié anteriormente en relación con {{Resource tittle 2}}. No se si lo viste interesante. En {{My Company Name}}, hemos ayudado a empresas como {{company_name}} y creo que podría ser relevante para ti.__saltoDeLinea__saltoDeLineaSi estás interesado/a, estaré encantado de darte mas detalles. ¿Te vendría bien una llamada esta semana?__saltoDeLinea__saltoDeLineaSaludos."
+  },
+
+
+
+  {
+    "label": "Email de seguimiento con llamada a la acción",
+    "case": "Seguimiento a caso de éxito 1 preguntando por el decisor",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaEspero que estés teniendo un excelente día. No se si tuviste tiempo de ver {{Success case Tittle1}}. En {{My Company Name}}, hemos trabajado con empresas como {{Success Cases Company1}}, ayudándolas a {{Success Cases Result1}}.__saltoDeLinea__saltoDeLineaMe encantaría explorar si esto podría ser relevante para {{company_name}}.__saltoDeLinea__saltoDeLinea¿Serías la persona indicada para conversar sobre esto o podrías indicarme con quién debería hablar?__saltoDeLinea__saltoDeLineaGracias por tu tiempo y cualquier referencia que puedas compartir.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+{
+    "label": "Email de seguimiento con llamada a la acción",
+    "case": "Seguimiento a caso de éxito 2 preguntando por el decisor",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaEspero que estés teniendo un excelente día. No se si tuviste tiempo de ver {{Success case Tittle2}}. En {{My Company Name}}, hemos trabajado con empresas como {{Success Cases Company2}}, ayudándolas a {{Success Cases Result2}}.__saltoDeLinea__saltoDeLineaMe encantaría explorar si esto podría ser relevante para {{company_name}}.__saltoDeLinea__saltoDeLinea¿Serías la persona indicada para conversar sobre esto o podrías indicarme con quién debería hablar?__saltoDeLinea__saltoDeLineaGracias por tu tiempo y cualquier referencia que puedas compartir.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+{
+    "label": "Email de seguimiento con llamada a la acción",
+    "case": "Seguimiento a caso de éxito 3 preguntando por el decisor",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaEspero que estés teniendo un excelente día. No se si tuviste tiempo de ver {{Success case Tittle3}}. En {{My Company Name}}, hemos trabajado con empresas como {{Success Cases Company3}}, ayudándolas a {{Success Cases Result3}}.__saltoDeLinea__saltoDeLineaMe encantaría explorar si esto podría ser relevante para {{company_name}}.__saltoDeLinea__saltoDeLinea¿Serías la persona indicada para conversar sobre esto o podrías indicarme con quién debería hablar?__saltoDeLinea__saltoDeLineaGracias por tu tiempo y cualquier referencia que puedas compartir.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+  {
+    "label": "Email de seguimiento con llamada a la acción",
+
+    "case": "Seguimiento con prueba gratuita",
+
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaTe contacto de nuevo por que En {{My Company Name}}, ofrecemos una prueba gratuita que termina el {{Expiration date}} para que puedas experimentar cómo {{Main Value}} puede ayudarte a {{company_name}}.__saltoDeLinea__saltoDeLineaEsta es una gran oportunidad para probar sin compromiso y ver los resultados por ti mismo/a. Puedes activarla aquí: {{Free Trial Link}}.__saltoDeLinea__saltoDeLineaSi tienes alguna pregunta, estaré encantado/a de ayudarte.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+  {
+    "label": "Email de seguimiento con llamada a la acción",
+
+    "case": "Invitación a una demostración de producto",
+
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaMe gustaría invitarte a una demostración en vivo de {{Product/Service}}, donde podrás ver cómo ayuda a empresas como {{company_name}} gracias a  {{Main Value}}.__saltoDeLinea__saltoDeLineaLa demo será personalizada según tus necesidades y te permitirá resolver cualquier duda en tiempo real. Puedes reservar tu espacio aquí:  {{my_metting_link}}.__saltoDeLinea__saltoDeLineaEspero poder mostrarte cómo funciona.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+  
+
+
+
+
+  {
+    "label": "Email de seguimiento con llamada a la acción",
+    "case": "Email con posible oferta vigente",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaPor tiempo limitado, estamos ofreciendo un {{resource type}} para {{company_name}}. Es una gran oportunidad para conocer {{Main Value}}.__saltoDeLinea__saltoDeLineaLa oferta expira el {{Expiration Date}}, así que si te interesa, puedes aprovecharla registrándote aquí: {{resource_link}}.__saltoDeLinea__saltoDeLineaSi tienes preguntas, estaré encantado/a de ayudarte.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+  {
+    "label": "Email de seguimiento con llamada a la acción",
+    "case": "Consultoría gratuita para identificar necesidades",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaQuería en esta ocasión saber si estarías interesado en tener una consultoría gratuita para poder identificar posibles {{Main Problem}} que puedan afectar a  {{company_name}}, como sabes es un problema habitual que afecta a muchas empresas en {{industry}}.__saltoDeLinea__saltoDeLineaSi estás interesado dime en qué momento tendrías un hueco que podamos hablarlo.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+  {
+    "label": "Email de cierre",
+    "case": "última oportunidad para recurso vigente",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaQuería enviarte un último mensaje sobre {{resource tittle}}, ya que esta oportunidad estará disponible solo hasta {{Expiration Date}}.__saltoDeLinea__saltoDeLineaSi estás interesado/a en explorar cómo {{My company Name}} puede ayudar a {{company_name}}, creo deberías aprovechar esta oportunidad.__saltoDeLinea__saltoDeLineaSi por el contrario no es el momento adecuado, lo entiendo completamente y te agradezco por tu tiempo.__saltoDeLinea__saltoDeLineaSaludos."
+  },
+  {
+    "label": "Email de cierre",
+    "case": "Email de cierre con invitación a reunión",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaTe he enviado algunos mensajes en las últimas semanas sobre cómo {{My company Name}} puede ayudar a {{company_name}} a {{Main problem1}}. No quiero ser insistente, pero quería asegurarme de que tuviste la oportunidad de revisar la información compartida.__saltoDeLinea__saltoDeLineaSi crees que puede ser útil, me encantaría programar una breve reunión de 15-20 minutos para discutir cómo podemos ayudar. Cuál sería el mejor momento para ti?__saltoDeLinea__saltoDeLineaSi no hay interés en este momento, lo entiendo perfectamente. Solo házmelo saber y no te molestaré más.__saltoDeLinea__saltoDeLineaGracias por tu tiempo.__saltoDeLinea__saltoDeLineaSaludos"
+  },
+  {
+    "label": "Email de cierre",
+    "case": "Email de cierre con enlace a mi calendario",
+    "mensaje": "Hola {{first_name}},__saltoDeLinea__saltoDeLineaTe he enviado algunos correos sobre cómo {{My company Name}} puede ayudar a {{company_name}} con {{Main Problem1}}. No quiero insistir, pero si aún tienes interés en explorarlo, me encantaría agendar una reunión.__saltoDeLinea__saltoDeLineaTe dejo aquí mi calendario  {{my_metting_link}} para que escojas el momento que mejor te venga.__saltoDeLinea__saltoDeLineaSi no ves esto como una prioridad en este momento, lo comprendo y te agradezco tu tiempo.__saltoDeLinea__saltoDeLineaSaludos."
+  }
+]

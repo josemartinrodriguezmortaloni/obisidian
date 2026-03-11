@@ -1,0 +1,46 @@
+@startuml main-application-flow
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title Flujo Principal de la Aplicación
+
+rectangle "API Layer" as api #LightGreen {
+    (POST /messages/generate) as A
+    (Request Validator) as B
+}
+
+rectangle "Orchestration Layer" as orchestration #LightYellow {
+    (Lead Analyzer) as C
+    (Context Builder) as D
+    (Strategy Selector) as E
+}
+
+rectangle "Generation Layer" as generation #LightBlue {
+    (Prompt Chain Orchestrator) as F
+    (Lead Classification) as G1
+    (Pain Point Inference) as G2
+    (Message Generation) as G3
+    (Quality Validator) as G4
+}
+
+rectangle "External Services" as external #LightGray {
+    database "OpenAI API" as H
+}
+
+(Response Formatter) as I
+(MessageDTO) as J
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G1
+G1 --> G2
+G2 --> G3
+G3 --> G4
+F ..> H : calls
+G4 --> I
+I --> J
+
+@enduml

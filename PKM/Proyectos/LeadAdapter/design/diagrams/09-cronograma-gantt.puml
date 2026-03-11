@@ -1,0 +1,57 @@
+@startgantt
+<style>
+ganttDiagram {
+    task {
+        BackGroundColor LightBlue
+        LineColor DarkBlue
+        FontSize 12
+    }
+    separator {
+        LineColor Gray
+        FontSize 11
+        FontStyle bold
+    }
+}
+</style>
+
+title Cronograma LeadAdapter - 4 Semanas
+
+Project starts 2025-01-06
+saturday are closed
+sunday are closed
+
+-- Setup --
+[F1 - Setup & Scaffolding] lasts 1 days
+
+-- Domain --
+[F2 - Domain Layer] lasts 3 days
+[F2 - Domain Layer] starts at [F1 - Setup & Scaffolding]'s end
+
+-- Application --
+[F3 - Application Layer] lasts 3 days
+[F3 - Application Layer] starts at [F2 - Domain Layer]'s end
+
+-- Infrastructure --
+[F4 - OpenAI Adapter] lasts 2 days
+[F4 - OpenAI Adapter] starts at [F3 - Application Layer]'s end
+
+[F5 - Redis Cache] lasts 2 days
+[F5 - Redis Cache] starts at [F4 - OpenAI Adapter]'s end
+
+-- API --
+[F6 - API Layer] lasts 2 days
+[F6 - API Layer] starts at [F5 - Redis Cache]'s end
+
+-- Quality --
+[F7 - Quality Gate] lasts 2 days
+[F7 - Quality Gate] starts at [F6 - API Layer]'s end
+
+-- Testing --
+[F8 - Testing] lasts 3 days
+[F8 - Testing] starts at [F7 - Quality Gate]'s end
+
+-- Deploy --
+[F9 - Docs & Deploy] lasts 1 days
+[F9 - Docs & Deploy] starts at [F8 - Testing]'s end
+
+@endgantt

@@ -1,0 +1,39 @@
+@startuml scalability-architecture
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title Arquitectura
+
+rectangle "Load Balancer" as lb #LightGreen {
+    component [nginx/traefik] as NGINX
+}
+
+rectangle "FastAPI Instances" as instances #LightYellow {
+    component [Instance 1] as F1
+    component [Instance 2] as F2
+    component [Instance 3] as F3
+}
+
+rectangle "Cache Layer" as cache #LightBlue {
+    database "Redis" as REDIS
+}
+
+rectangle "AI Service" as ai #LightCoral {
+    database "OpenAI API" as OPENAI
+    component [Rate Limiter] as RL
+}
+
+NGINX --> F1
+NGINX --> F2
+NGINX --> F3
+
+F1 --> REDIS
+F2 --> REDIS
+F3 --> REDIS
+
+F1 --> RL
+F2 --> RL
+F3 --> RL
+RL --> OPENAI
+
+@enduml

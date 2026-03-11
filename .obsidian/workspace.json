@@ -1,0 +1,320 @@
+{
+  "main": {
+    "id": "62196eed6d24f548",
+    "type": "split",
+    "children": [
+      {
+        "id": "54f1ef0c2e0db4e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2f86db8aba1c8fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PKM/Proyectos/SimPlant/Papers/GUIA-APRENDIZAJE-SIMPLANT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GUIA-APRENDIZAJE-SIMPLANT"
+            }
+          },
+          {
+            "id": "a83001c4f5cb92ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PKM/Proyectos/SimPlant/Modulos/Trainer/Diseño Trainer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Diseño Trainer"
+            }
+          },
+          {
+            "id": "8a6a9c76e2ae4960",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "PKM/Proyectos/SimPlant/Papers/Reinforcement+Learning+in+Process+Industries_+Review+and+Perspective.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 428,
+                "zoom": 1.9767156862745097
+              },
+              "icon": "lucide-file-text",
+              "title": "Reinforcement+Learning+in+Process+Industries_+Review+and+Perspective"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c05ebc0491ff1413",
+    "type": "split",
+    "children": [
+      {
+        "id": "12973500f47454bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a5a4bd6e7851944",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "7467cdda04610b50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "idea",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "03864a0336a9f05e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "26cfe912bedcdaa5",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 524.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "e5c9dfedb1ba7ab1",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfb2d532e0eb85c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2a8a6ddbe2c3f1c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Proyectos/LeadAdapter - Technical Design Document.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for LeadAdapter - Technical Design Document"
+            }
+          },
+          {
+            "id": "f6a4eadc9c554552",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Proyectos/LeadAdapter - Technical Design Document.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from LeadAdapter - Technical Design Document"
+            }
+          },
+          {
+            "id": "98659df207f8ce05",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "094795d82fbf1524",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d297c83970af3870",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Proyectos/LeadAdapter - Technical Design Document.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LeadAdapter - Technical Design Document"
+            }
+          },
+          {
+            "id": "7cf59701869efd71",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          },
+          {
+            "id": "113b300c2b3941ab",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "97b7390c22addcb9",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "bases:Crear nueva base": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "notebook-navigator:Navegador de Cuadernos": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "a83001c4f5cb92ac",
+  "lastOpenFiles": [
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/Guía de Desarrollo.md",
+    "PKM/Proyectos/SimPlant/Papers/GUIA-APRENDIZAJE-SIMPLANT.md",
+    "PKM/Proyectos/SimPlant/Papers/Reinforcement+Learning+in+Process+Industries_+Review+and+Perspective.pdf",
+    "PKM/Programación/Filosofía de desarrollo. Punto de vista técnico.md",
+    "PKM/Proyectos/SimPlant/Descripción del proyecto v2.md",
+    "PKM/Proyectos/SimPlant/Modulos/Operator Observability/Observabilidad y Confianza.md",
+    "PKM/Proyectos/SimPlant/Modulos/Twin Calibration/Calibración del Gemelo Digital.md",
+    "PKM/Proyectos/SimPlant/Modulos/Env/Environment.md",
+    "PKM/Proyectos/SimPlant/Modulos/Twin Calibration/Twin Calibration.md",
+    "PKM/Proyectos/SimPlant/Modulos/Twin Calibration",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/Diseño Trainer.md",
+    "PKM/Proyectos/SimPlant/Modulos/Ot Security Boundary/Ot Security Boundary.md",
+    "PKM/Proyectos/SimPlant/Modulos/Signal Conditioning/Signal Conditioning.md",
+    "PKM/Proyectos/SimPlant/Modulos/Mapa de relación de los módulos.md",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/diagrama-clases.png",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/diagrama-clases.excalidraw",
+    "PKM/Proyectos/SimPlant/Papers/ARQUITECTURA-SAC-PID.md",
+    "PKM/Proyectos/SimPlant/Papers/2505.03356v1.pdf",
+    "PKM/Proyectos/SimPlant/Papers/1-s2.0-S0920410521002400-main.pdf",
+    "PKM/Proyectos/SimPlant/SimPlant Lab.md",
+    "PKM/Proyectos/SimPlant/Papers/Wang2023-RL-IDAES-Framework.pdf",
+    "PKM/Proyectos/SimPlant/Papers/Tian2024-RL-Process-Design-HDA.pdf",
+    "PKM/Proyectos/SimPlant/Papers/applsci-15-12904-v2.pdf",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/Trainer.md",
+    "PKM/Proyectos/SimPlant/Descripción del proyecto.md",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/Sin título.md",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/docs/Trainer.md",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/docs",
+    "PKM/Proyectos/SimPlant/Modulos/Gateway/Gateway.md",
+    "PKM/Proyectos/SimPlant/Modulos/Ot Security Boundary/Sin nombre",
+    "PKM/Proyectos/SimPlant/Modulos/Sin título.canvas",
+    "PKM/Proyectos/SimPlant/Arquitectura-Modular.md",
+    "PKM/Proyectos/SimPlant/Idea.md",
+    "PKM/Blog/Ingeniería de Software/Filosofía de desarrollo/Filosofía de Desarrollo.md",
+    "PKM/Proyectos/SimPlant/Modulos/Runtime/plans/01-ready/2026-02-23-runtime-library-implementation.md",
+    "PKM/Proyectos/SimPlant/Modulos/Runtime/plans/INDEX.md",
+    "PKM/Proyectos/SimPlant/Modulos/Runtime/Flujos/DSS-R2-RuntimeService-start.md",
+    "PKM/Proyectos/SimPlant/Modulos/Runtime/Diseño.md",
+    "PKM/Blog/Filosofía/The Base/Imágenes/G-eBUiHbcAA5lRT.jpg",
+    "PKM/Blog/Filosofía/The Base/Imágenes/image.png",
+    "PKM/Blog/Filosofía/The Base/Imágenes/G-fhajEWMAAy39C.jpg",
+    "PKM/Blog/Filosofía/The Base/Imágenes/G-Zu6JhXIAAh_TO.jpg",
+    "Proyectos/diagrams/image.png",
+    "Sin título.canvas",
+    "Proyectos/diagrams/image 8.png",
+    "Proyectos/diagrams/image 7.png",
+    "Proyectos/diagrams/image 6.png",
+    "Proyectos/diagrams/image 5.png"
+  ]
+}

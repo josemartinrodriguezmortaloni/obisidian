@@ -1,0 +1,55 @@
+@startuml hexagonal-architecture
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam componentStyle rectangle
+
+title Arquitectura Hexagonal (Ports & Adapters)
+
+rectangle "DRIVING ADAPTERS (Input)" as driving #LightGreen {
+    component [FastAPI Router] as DA1
+    component [CLI - futuro] as DA2
+}
+
+rectangle "INPUT PORTS" as inputPorts #White {
+    interface "SequenceGeneratorPort" as IP1
+}
+
+rectangle "DOMAIN CORE" as domainCore #LightYellow {
+    rectangle "Entities" as entities {
+        component [Lead] as E1
+        component [Sender] as E2
+        component [Playbook] as E3
+        component [Message] as E4
+    }
+    
+    rectangle "Domain Services" as domainServices {
+        component [StrategySelector] as DS1
+        component [MessagePersonalizer] as DS2
+        component [SequenceOrchestrator] as DS3
+        component [ConflictResolver] as DS4
+    }
+}
+
+rectangle "OUTPUT PORTS" as outputPorts #White {
+    interface "LLMPort" as OP1
+    interface "CachePort" as OP2
+    interface "ExternalDataPort" as OP3
+}
+
+rectangle "DRIVEN ADAPTERS (Output)" as driven #LightBlue {
+    component [OpenAI Adapter] as DR1
+    component [Redis Adapter] as DR2
+    component [Synapsale Adapter] as DR3
+}
+
+DA1 --> IP1
+DA2 --> IP1
+IP1 --> domainCore
+domainCore --> OP1
+domainCore --> OP2
+domainCore --> OP3
+OP1 --> DR1
+OP2 --> DR2
+OP3 --> DR3
+
+@enduml

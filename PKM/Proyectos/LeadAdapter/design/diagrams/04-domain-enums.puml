@@ -1,0 +1,52 @@
+@startuml domain-enums
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam classAttributeIconSize 0
+
+title Enums del Sistema
+
+enum SequenceStep {
+    FIRST_CONTACT
+    VALUE_PROP
+    FOLLOWUP
+    CLOSING
+}
+
+enum MessageStrategy {
+    PAIN_POINT
+    JOB_CHANGE
+    SUCCESS_CASE
+    SOCIAL_PROOF
+    RESOURCE_SHARE
+    STRATEGIC_QUESTION
+    DECISION_MAKER
+}
+
+enum Channel {
+    LINKEDIN
+    EMAIL
+}
+
+enum SignalType {
+    JOB_CHANGE
+    RECENT_POST
+    COMPANY_NEWS
+    FUNDING
+}
+
+enum Tone {
+    FORMAL
+    CASUAL
+    FRIENDLY
+    PROFESSIONAL
+}
+
+enum Seniority {
+    C_LEVEL
+    VP
+    DIRECTOR
+    MANAGER
+    INDIVIDUAL_CONTRIBUTOR
+}
+
+@enduml

@@ -1,0 +1,37 @@
+@startuml quality-gate-flow
+!theme plain
+skinparam backgroundColor #FEFEFE
+
+title Flujo de Generación con Quality Gate
+
+start
+
+:generate();
+
+:Input: LeadDTO, UserDTO, PlaybookDTO, prompt;
+
+:msgGenerator;
+
+:Genera mensaje con OpenAI;
+
+:scoreMsg;
+
+if (score >= 6?) then (YES)
+    :formatterMsg;
+else (NO)
+    if (intentos < 3?) then (SI)
+        :Incluir feedback del score;
+        note right: Regenerar con\nfeedback específico
+        goto msgGenerator
+    else (NO)
+        :Usar mejor intento + warning;
+        :formatterMsg;
+    endif
+endif
+
+:MessageDTO;
+#90EE90:Mensaje listo para enviar;
+
+stop
+
+@enduml

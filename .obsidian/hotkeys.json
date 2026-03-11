@@ -1,0 +1,18 @@
+{
+  "templater-obsidian:create-PKM/Templates/Patrón.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "templater-obsidian:create-PKM/Templates/Notas de Capítulo.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ]
+}

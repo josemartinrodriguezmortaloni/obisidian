@@ -1,0 +1,54 @@
+@startuml high-level-architecture
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam componentStyle rectangle
+
+title Arquitectura de Alto Nivel - LeadAdapter
+
+rectangle "SYNAPSALE PLATFORM" as external #LightBlue {
+    component [Synapsale App] as SP
+}
+
+rectangle "API GATEWAY" as gateway #LightGreen {
+    component [POST /api/v1/sequences] as AG
+}
+
+rectangle "LEADADAPTER CORE" as core #LightYellow {
+    rectangle "DOMAIN" as domain {
+        component [Lead] as D1
+        component [Sender] as D2
+        component [Playbook] as D3
+        component [Message] as D4
+        component [Sequence] as D5
+    }
+    
+    rectangle "APPLICATION" as application {
+        component [Sequence Generator] as A1
+        component [Message Builder] as A2
+        component [Strategy Selector] as A3
+    }
+    
+    rectangle "INFRASTRUCTURE" as infrastructure {
+        component [OpenAI Adapter] as I1
+        component [Cache Adapter] as I2
+        component [External API Adapter] as I3
+    }
+}
+
+rectangle "EXTERNAL SERVICES" as services #LightGray {
+    database "OpenAI API" as S1
+    database "Redis Cache" as S2
+    database "Synapsale APIs" as S3
+}
+
+SP --> AG
+AG --> A1
+A1 --> domain
+A1 --> A2
+A1 --> A3
+application --> infrastructure
+I1 --> S1
+I2 --> S2
+I3 --> S3
+
+@enduml
