@@ -15,9 +15,9 @@
               "state": {
                 "file": "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
                 "page": 6,
-                "left": -7,
+                "left": -8,
                 "top": 301,
-                "zoom": 2.0654911838790935
+                "zoom": 1.876574307304786
               },
               "icon": "lucide-file-text",
               "title": "Modelado y Simulación de Sistemas"
@@ -214,8 +214,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -229,12 +229,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
