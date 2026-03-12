@@ -4,55 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "54f1ef0c2e0db4e7",
+        "id": "ab5009e6926f4cf6",
         "type": "tabs",
         "children": [
           {
-            "id": "a2f86db8aba1c8fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PKM/Proyectos/SimPlant/Papers/GUIA-APRENDIZAJE-SIMPLANT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GUIA-APRENDIZAJE-SIMPLANT"
-            }
-          },
-          {
-            "id": "a83001c4f5cb92ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PKM/Proyectos/SimPlant/Modulos/Trainer/Diseño Trainer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diseño Trainer"
-            }
-          },
-          {
-            "id": "8a6a9c76e2ae4960",
+            "id": "469086c84c5bacbe",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "PKM/Proyectos/SimPlant/Papers/Reinforcement+Learning+in+Process+Industries_+Review+and+Perspective.pdf",
+                "file": "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
                 "page": 1,
-                "left": -8,
-                "top": 428,
-                "zoom": 1.9767156862745097
+                "left": -7,
+                "top": 448,
+                "zoom": 2.0654911838790935
               },
               "icon": "lucide-file-text",
-              "title": "Reinforcement+Learning+in+Process+Industries_+Review+and+Perspective"
+              "title": "Modelado y Simulación de Sistemas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "9467ead68121bf37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2035525abb625066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PKM/Facultad/Cuarto/Simulación/Teoría/Modelado y Simulación.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modelado y Simulación"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,46 +257,45 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a83001c4f5cb92ac",
+  "active": "2035525abb625066",
   "lastOpenFiles": [
-    "PKM/Proyectos/SimPlant/Modulos/Trainer/Guía de Desarrollo.md",
+    "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
+    "PKM/Facultad/Cuarto/Simulación/Teoría/Modelado y Simulación.md",
+    "PKM/Facultad/Tercero/Diseño/Eje 1/Patrón Proceso.md",
+    "PKM/Facultad/Tercero/Bases de Datos/Sin título.md",
+    "PKM/Facultad/Sin título.md",
+    "PKM/Facultad/Tercero/Bases de Datos/Teoría/PDFs",
+    "PKM/Facultad/Tercero/Bases de Datos/Teoría",
+    "PKM/Facultad/Tercero/Economía/Teoría/PDFs",
+    "PKM/Facultad/Tercero/Economía/Teoría",
+    "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs",
+    "PKM/Facultad/Cuarto/Simulación/Teoría",
+    "PKM/Facultad/Cuarto/Lesgislación/Teoría/PDFs",
+    "PKM/Facultad/Cuarto/Lesgislación/Teoría",
+    "PKM/Facultad/Cuarto/Investigación Operativa/Teoría/PDFs 1",
+    "PKM/Facultad/Tercero/Diseño/Apuntes.md",
     "PKM/Proyectos/SimPlant/Papers/GUIA-APRENDIZAJE-SIMPLANT.md",
-    "PKM/Proyectos/SimPlant/Papers/Reinforcement+Learning+in+Process+Industries_+Review+and+Perspective.pdf",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/Diseño Trainer.md",
+    "PKM/Proyectos/SimPlant/Modulos/Trainer/Guía de Desarrollo.md",
     "PKM/Programación/Filosofía de desarrollo. Punto de vista técnico.md",
     "PKM/Proyectos/SimPlant/Descripción del proyecto v2.md",
     "PKM/Proyectos/SimPlant/Modulos/Operator Observability/Observabilidad y Confianza.md",
     "PKM/Proyectos/SimPlant/Modulos/Twin Calibration/Calibración del Gemelo Digital.md",
     "PKM/Proyectos/SimPlant/Modulos/Env/Environment.md",
     "PKM/Proyectos/SimPlant/Modulos/Twin Calibration/Twin Calibration.md",
-    "PKM/Proyectos/SimPlant/Modulos/Twin Calibration",
-    "PKM/Proyectos/SimPlant/Modulos/Trainer/Diseño Trainer.md",
     "PKM/Proyectos/SimPlant/Modulos/Ot Security Boundary/Ot Security Boundary.md",
     "PKM/Proyectos/SimPlant/Modulos/Signal Conditioning/Signal Conditioning.md",
     "PKM/Proyectos/SimPlant/Modulos/Mapa de relación de los módulos.md",
     "PKM/Proyectos/SimPlant/Modulos/Trainer/diagrama-clases.png",
-    "PKM/Proyectos/SimPlant/Modulos/Trainer/diagrama-clases.excalidraw",
     "PKM/Proyectos/SimPlant/Papers/ARQUITECTURA-SAC-PID.md",
-    "PKM/Proyectos/SimPlant/Papers/2505.03356v1.pdf",
-    "PKM/Proyectos/SimPlant/Papers/1-s2.0-S0920410521002400-main.pdf",
     "PKM/Proyectos/SimPlant/SimPlant Lab.md",
-    "PKM/Proyectos/SimPlant/Papers/Wang2023-RL-IDAES-Framework.pdf",
-    "PKM/Proyectos/SimPlant/Papers/Tian2024-RL-Process-Design-HDA.pdf",
-    "PKM/Proyectos/SimPlant/Papers/applsci-15-12904-v2.pdf",
     "PKM/Proyectos/SimPlant/Modulos/Trainer/Trainer.md",
     "PKM/Proyectos/SimPlant/Descripción del proyecto.md",
     "PKM/Proyectos/SimPlant/Modulos/Trainer/Sin título.md",
     "PKM/Proyectos/SimPlant/Modulos/Trainer/docs/Trainer.md",
-    "PKM/Proyectos/SimPlant/Modulos/Trainer/docs",
     "PKM/Proyectos/SimPlant/Modulos/Gateway/Gateway.md",
-    "PKM/Proyectos/SimPlant/Modulos/Ot Security Boundary/Sin nombre",
     "PKM/Proyectos/SimPlant/Modulos/Sin título.canvas",
     "PKM/Proyectos/SimPlant/Arquitectura-Modular.md",
-    "PKM/Proyectos/SimPlant/Idea.md",
-    "PKM/Blog/Ingeniería de Software/Filosofía de desarrollo/Filosofía de Desarrollo.md",
-    "PKM/Proyectos/SimPlant/Modulos/Runtime/plans/01-ready/2026-02-23-runtime-library-implementation.md",
-    "PKM/Proyectos/SimPlant/Modulos/Runtime/plans/INDEX.md",
-    "PKM/Proyectos/SimPlant/Modulos/Runtime/Flujos/DSS-R2-RuntimeService-start.md",
-    "PKM/Proyectos/SimPlant/Modulos/Runtime/Diseño.md",
     "PKM/Blog/Filosofía/The Base/Imágenes/G-eBUiHbcAA5lRT.jpg",
     "PKM/Blog/Filosofía/The Base/Imágenes/image.png",
     "PKM/Blog/Filosofía/The Base/Imágenes/G-fhajEWMAAy39C.jpg",
