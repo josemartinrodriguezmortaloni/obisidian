@@ -4,43 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ab5009e6926f4cf6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "469086c84c5bacbe",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
-                "page": 6,
-                "left": -8,
-                "top": 301,
-                "zoom": 1.876574307304786
-              },
-              "icon": "lucide-file-text",
-              "title": "Modelado y Simulación de Sistemas"
-            }
-          }
-        ]
-      },
-      {
         "id": "9467ead68121bf37",
         "type": "tabs",
         "children": [
           {
-            "id": "2035525abb625066",
+            "id": "3dd5d10729ea2502",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PKM/Facultad/Cuarto/Simulación/Teoría/Modelado y Simulación.md",
+                "file": "PKM/Facultad/Tercero/Base de Datos/Teoría/Tema 2/Diseño del Modelo de Datos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelado y Simulación"
+              "title": "Diseño del Modelo de Datos"
             }
           }
         ]
@@ -66,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -110,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -237,14 +215,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "markdown-importer:Abrir el importador de Markdown": false,
-      "bases:Crear nueva base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
@@ -252,14 +230,19 @@
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
-      "notebook-navigator:Navegador de Cuadernos": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "notebook-navigator:Notebook Navigator": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "2035525abb625066",
+  "active": "3dd5d10729ea2502",
   "lastOpenFiles": [
-    "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
+    "PKM/Facultad/Tercero/Base de Datos/Teoría/Tema 2/Diseño del Modelo de Datos.md",
+    "PKM/Facultad/Tercero/Base de Datos/Teoría/Tema 2",
+    "PKM/Facultad/Tercero/Base de Datos/Teoría",
+    "PKM/Facultad/Tercero/Base de Datos",
     "PKM/Facultad/Cuarto/Simulación/Teoría/Modelado y Simulación.md",
+    "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
     "PKM/Facultad/Tercero/Diseño/Eje 1/Patrón Proceso.md",
     "PKM/Facultad/Tercero/Bases de Datos/Sin título.md",
     "PKM/Facultad/Sin título.md",
@@ -269,9 +252,6 @@
     "PKM/Facultad/Tercero/Economía/Teoría",
     "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs",
     "PKM/Facultad/Cuarto/Simulación/Teoría",
-    "PKM/Facultad/Cuarto/Lesgislación/Teoría/PDFs",
-    "PKM/Facultad/Cuarto/Lesgislación/Teoría",
-    "PKM/Facultad/Cuarto/Investigación Operativa/Teoría/PDFs 1",
     "PKM/Facultad/Tercero/Diseño/Apuntes.md",
     "PKM/Proyectos/SimPlant/Papers/GUIA-APRENDIZAJE-SIMPLANT.md",
     "PKM/Proyectos/SimPlant/Modulos/Trainer/Diseño Trainer.md",

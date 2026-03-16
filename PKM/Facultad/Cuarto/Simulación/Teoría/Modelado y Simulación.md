@@ -32,3 +32,6 @@ Desventajas:
 - Se requiere gran cantidad de corridas computacionales para encontrar soluciona optimas, lo cual representa altos costos.
 - Los modelos de simulación no generar soluciones ni repuestas a ciertas preguntas.
 - El desarrollo de un modelo puede ser costoso, laborioso porque requiere de mucho tiempo para validarse y desarrollarse.
+
+Sistemas Estáticos: Son aquellos que los resultados de su simulación siempre son los mismos
+Sistemas Dinámicos: Son aquellos que los resultados de su simulación siempre varían.
