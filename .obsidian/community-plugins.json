@@ -15,5 +15,6 @@
   "notebook-navigator",
   "mehrmaid",
   "mermaid-tools",
-  "terminal"
+  "terminal",
+  "editing-toolbar"
 ]
