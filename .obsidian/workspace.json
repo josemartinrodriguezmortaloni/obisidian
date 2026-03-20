@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0f4c3078391522f7",
+        "id": "93686e601a15d527",
         "type": "tabs",
         "children": [
           {
-            "id": "619e95ad3c489395",
+            "id": "4a0db37b0bdd2135",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PKM/Facultad/Cuarto/Lesgilacion/Teoría/Notas 170326.md",
+                "file": "PKM/Facultad/Tercero/Base de Datos/Teoría/Archivos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notas 170326"
+              "title": "Archivos"
+            }
+          },
+          {
+            "id": "e51e8b90b3f475e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -88,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 204.5
   },
   "right": {
     "id": "e5c9dfedb1ba7ab1",
@@ -214,14 +229,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "bases:Create new base": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "bases:Crear nueva base": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
@@ -229,31 +244,31 @@
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
-      "notebook-navigator:Notebook Navigator": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "terminal:Open terminal": false
+      "notebook-navigator:Navegador de Cuadernos": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "619e95ad3c489395",
+  "active": "e51e8b90b3f475e9",
   "lastOpenFiles": [
-    "PKM/Facultad/Cuarto/Investigación Operativa/Teoría/Notas 170326.md",
-    "PKM/Facultad/Cuarto/Lesgilacion/Teoría/Notas 170326.md",
-    "PKM/Facultad/Cuarto/Lesgilacion/Teoría/PDFS",
-    "PKM/Facultad/Cuarto/Lesgilacion/Teoría",
-    "PKM/Facultad/Cuarto/Lesgilacion",
-    "PKM/Facultad/Cuarto/Simulación/Teoría/Notas 170326.md",
-    "PKM/Facultad/Cuarto/Investigación Operativa/Teoría/PDFs",
-    "PKM/Facultad/Cuarto/Investigación Operativa/Teoría",
-    "PKM/Facultad/Cuarto/Investigación Operativa",
-    "PKM/Facultad/Cuarto/Simulación/Teoría/Modelado y Simulación.md",
+    "PKM/Facultad/Tercero/Base de Datos/Teoría/Archivos.md",
     "PKM/Facultad/Tercero/Base de Datos/Teoría/Tema 2/Diseño del Modelo de Datos.md",
+    "PKM/Facultad/Cuarto/Lesgilacion/Teoría/Notas 170326.md",
+    "PKM/Facultad/Cuarto/Simulación/Teoría/Modelado y Simulación.md",
+    "PKM/Facultad/Cuarto/Simulación/Teoría/Notas 170326.md",
+    "PKM/Facultad/Cuarto/Investigación Operativa/Teoría/Notas 170326.md",
+    "conflict-files-obsidian-git.md",
     "PKM/Facultad/Tercero/Base de Datos/Teoría/Tema 2",
     "PKM/Facultad/Tercero/Base de Datos/Teoría",
     "PKM/Facultad/Tercero/Base de Datos",
+    "PKM/Facultad/Cuarto/Lesgilacion/Teoría",
+    "PKM/Facultad/Cuarto/Lesgilacion",
     "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
     "PKM/Facultad/Tercero/Diseño/Eje 1/Patrón Proceso.md",
-    "PKM/Facultad/Tercero/Bases de Datos/Sin título.md",
     "PKM/Facultad/Sin título.md",
+    "PKM/Facultad/Tercero/Bases de Datos/Teoría/PDFs",
+    "PKM/Facultad/Tercero/Bases de Datos/Teoría",
+    "PKM/Facultad/Tercero/Economía/Teoría/PDFs",
+    "PKM/Facultad/Tercero/Economía/Teoría",
     "PKM/Facultad/Tercero/Diseño/Apuntes.md",
     "PKM/Proyectos/SimPlant/Papers/GUIA-APRENDIZAJE-SIMPLANT.md",
     "PKM/Proyectos/SimPlant/Modulos/Trainer/Diseño Trainer.md",
@@ -272,7 +287,6 @@
     "PKM/Proyectos/SimPlant/SimPlant Lab.md",
     "PKM/Proyectos/SimPlant/Modulos/Trainer/Trainer.md",
     "PKM/Proyectos/SimPlant/Descripción del proyecto.md",
-    "PKM/Proyectos/SimPlant/Modulos/Trainer/Sin título.md",
     "PKM/Proyectos/SimPlant/Modulos/Sin título.canvas",
     "PKM/Blog/Filosofía/The Base/Imágenes/G-eBUiHbcAA5lRT.jpg",
     "PKM/Blog/Filosofía/The Base/Imágenes/image.png",
