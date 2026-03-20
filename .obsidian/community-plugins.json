@@ -14,5 +14,7 @@
   "obsidian-hover-editor",
   "notebook-navigator",
   "mehrmaid",
-  "mermaid-tools"
+  "mermaid-tools",
+  "terminal",
+  "editing-toolbar"
 ]

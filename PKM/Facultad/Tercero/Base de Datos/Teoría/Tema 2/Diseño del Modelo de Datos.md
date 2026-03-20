@@ -1,0 +1,32 @@
+> Este tema entra para el primer parcial
+
+- El modelado es independiente del motor del sistema gestor de base de datos.
+- En esta estamos trabajando en una arquitectura de 3 capas: Externo (Vista Individuales de Usuarios), Medio (Vista Conceptual) e Interno (Vista de Almacenamiento) por último tenemos el nivel Físico (Base de datos)
+- El modelo E/R fue introducido en el año 1976 por P. Chen y se formalizó en 1981. El modelo E/R describe los datos como entidades, relaciones y atributos.
+- Modelo de datos: Colección de conceptos que sirven para describir la estructura de una base de datos.
+- Una vez concluida la fase de recolección y análisis de requerimientos, los diseñadores de la base de datos redactan el universo de discurso.
+- Está conformado por: 
+	- Entidad (Sustantivos): Objeto del mundo real y sobre las cuales se tiene algún interés por observar. 
+		- Representan por un rectángulo.
+		- Se escriben en singular. 
+		- Debil: Esta supeditada a otra entidad mayor. Por ej: en la herencia.
+	- Atributo (adjetivos): Características o propiedades de las Entidades, son específicos de cada entidad. Se representan por un ovalo.
+		- Simples o Atómicos: Propiedad no divisible
+		- Compuestos: Propiedad que se puede descomponer en componentes más pequeños.
+		- Multivaluados: Cuando un atributo puede tener un conjunto de valores para una misma entidad.
+		- Derivables: Propiedad que puede ser determinada a partir de otro atributo.
+		- Clave: Identifican a la entidad.
+	- Relación (verbos): Asociaciones entre dos o más Entidades. 
+		- No pueden existir si no existen previamente las Entidades que están relacionadas. 
+		- En gral. son eventos. 
+		- Se representan por medio de un rombo.
+		- Las relaciones son bidireccionales.
+		- Se escriben en infinitivo.
+- El MER se basa en la representación del mundo real en que los datos se describen como entidades, relaciones y atributos.
+- No hay claves foráneas solamente primarias. Tenemos que analizar la clave primaria.
+- No se puede encontrar direcciones, por lo tanto no se usan flechas.
+- En trabajo final:
+	- Primero escribir el minimundo o univeso de discurso
+	- Luego representar el minimundo en el modelo entidad realción
+- Los atributos también pueden ir en las relaciones, esto sucede cuando el atributo depende de dos entidades.
+- 
