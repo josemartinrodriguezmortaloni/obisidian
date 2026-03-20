@@ -4,33 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab5009e6926f4cf6",
+        "id": "c5922110cbf4fa3f",
         "type": "tabs",
         "children": [
           {
-            "id": "469086c84c5bacbe",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
-                "page": 6,
-                "left": -8,
-                "top": 301,
-                "zoom": 1.876574307304786
-              },
-              "icon": "lucide-file-text",
-              "title": "Modelado y Simulación de Sistemas"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9467ead68121bf37",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2035525abb625066",
+            "id": "dce804e4abf26f54",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -110,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524.5,
-    "collapsed": true
+    "width": 524.5
   },
   "right": {
     "id": "e5c9dfedb1ba7ab1",
@@ -256,12 +233,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2035525abb625066",
+  "active": "dce804e4abf26f54",
   "lastOpenFiles": [
+    "PKM/Facultad/Tercero/Bases de Datos/Archivos.md",
     "PKM/Facultad/Cuarto/Simulación/Teoría/PDFs/Modelado y Simulación de Sistemas.pdf",
     "PKM/Facultad/Cuarto/Simulación/Teoría/Modelado y Simulación.md",
     "PKM/Facultad/Tercero/Diseño/Eje 1/Patrón Proceso.md",
-    "PKM/Facultad/Tercero/Bases de Datos/Sin título.md",
     "PKM/Facultad/Sin título.md",
     "PKM/Facultad/Tercero/Bases de Datos/Teoría/PDFs",
     "PKM/Facultad/Tercero/Bases de Datos/Teoría",

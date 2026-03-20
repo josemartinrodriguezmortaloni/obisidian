@@ -1,6 +1,7 @@
 {
   "cssTheme": "Minimal",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "textFontFamily": "Geist Mono,CommitMono,Departure Mono,Dank Mono",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "showRibbon": false
 }
